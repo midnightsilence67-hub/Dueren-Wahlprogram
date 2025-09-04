@@ -1,4 +1,4 @@
-#Wahlcheck Dueren
+
 import React, { useMemo, useState } from "react"; import { motion } from "framer-motion"; import { Check, Minus, X, Vote, Info, Percent } from "lucide-react"; import { Button } from "@/components/ui/button"; import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"; import { Progress } from "@/components/ui/progress";
 
 // Hilfs-Typen const CHOICES = { agree: 1, // Zustimmung (grün) neutral: 0, // Neutral (weiß) disagree: -1, // Ablehnung (rot) } as const;
